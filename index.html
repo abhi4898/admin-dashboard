@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/admin.css">
+      <script src="https://kit.fontawesome.com/f9dc95de62.js" crossorigin="anonymous"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap" rel="stylesheet">
+      <link rel="shortcut icon" href="images/admin.png" type="image/x-icon">
+      <title>Your Own Admin</title>
+    
+  </head>
+  <body>
+    
+    <!-- navbar starts here -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Admin Dashboard</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+          aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navlist">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><i class="fas fa-tachometer-alt"></i> Dashboard <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-cog"></i> Settings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-user"></i> Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-question-circle"></i> Help</a>
+          </li>
+
+        </ul>
+        <ul class="nav navbar-nav ml-right">
+          <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-user-plus"></i> Add User</a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="far fa-copy"></i> Add Categories</a></li>
+        </ul>
+        <!-- <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+      </div>
+    </nav>
+
+    <!-- navbar ends here -->
+
+    <!-- columns starts here -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><i style="color: black;" class="fas fa-book-open"></i> Reports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i style="color: black;" class="fas fa-chart-line"></i> Stats</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i style="color: black;" class="far fa-chart-bar"></i> Graphs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i style="color: black;" class="fas fa-users"></i> <span class="new">Users</span> </a>
+            </li>
+          </ul>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><i style="color: black;" class="fas fa-book-open"></i> Reports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i style="color: black;" class="fas fa-hand-holding-usd"></i> Revenue</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i style="color: black;" class="fas fa-globe-americas"></i> Countries</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i style="color: black;" class="fas fa-exclamation-circle"></i> Spamers</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-md-10 main">
+          <h1 class="page-header"><i class="fas fa-tachometer-alt"></i> Dashboard</h1>
+          <div class="row placeholders">
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img src="images/graph.png" class="img-fluid" width="200" height="200" alt="Graphs">
+              <h4>Label</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img src="images/graph.png" class="img-fluid" width="200" height="200" alt="Graphs">
+              <h4>Label</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img src="images/graph.png" class="img-fluid" width="200" height="200" alt="Graphs">
+              <h4>Label</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img src="images/graph.png" class="img-fluid" width="200" height="200" alt="Graphs">
+              <h4>Label</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <h2 class="sub-header">Detailed Result</h2>
+
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>ID#</th>
+                  <th>Detail 1#</th>
+                  <th>Detail 2#</th>
+                  <th>Detail 3#</th>
+                  <th>Detail 4#</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>100</td>
+                  <td>Abhi</td>
+                  <td>Web Development</td>
+                  <td>Salem</td>
+                  <td>Rs.1199</td>
+                </tr>
+                <tr>
+                  <td>101</td>
+                  <td>Arun</td>
+                  <td>App Development</td>
+                  <td>Mettur</td>
+                  <td>Rs.799</td>
+                </tr>
+                <tr>
+                  <td>102</td>
+                  <td>Arul</td>
+                  <td>Game Development</td>
+                  <td>Elampillai</td>
+                  <td>Rs.899</td>
+                </tr>
+                <tr>
+                  <td>103</td>
+                  <td>Adi</td>
+                  <td>Python Development</td>
+                  <td>Ammapet</td>
+                  <td>Rs.999</td>
+                </tr>
+                <tr>
+                  <td>104</td>
+                  <td>Karunakaran</td>
+                  <td>Digital Marketing</td>
+                  <td>Belur</td>
+                  <td>Rs.499</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- column ends here -->
+
+    <!-- Footer section starts here -->
+
+   <footer>
+    <p class="float-right"><i style="color:#2b8eff;" class="far fa-arrow-alt-circle-up"></i> Move to Top</p>
+    <p>&copy; 2020 Admin, Inc. <a href="#">Terms</a> &middot; <a href="#">Conditions</a></p>
+   </footer>
+
+   <!-- Footer section ends here -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
